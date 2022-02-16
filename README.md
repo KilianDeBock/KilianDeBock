@@ -17,9 +17,11 @@ I currently study web development at Artevelde college in Belgium.
 <a href=""><img align="left" alt="HTML" height="40px" src="https://f.lyttle.it/5QLU46wDL0.png"></a>
 <a href=""><img align="left" alt="CSS" height="40px" src="https://f.lyttle.it/9QP6m68uZQ.png"></a>
 <a href=""><img align="left" alt="Python" height="40px" src="https://f.lyttle.it/AyopWNjiUL.png"></a>
+<!---
 <a href=""><img align="left" alt="JSON" height="40px" src="https://f.lyttle.it/BHDR32M6Qa.png"></a>
 <a href=""><img align="left" alt="SQL" height="40px" src="https://f.lyttle.it/T3pVq8aOEj.png"></a>
 <a href=""><img align="left" alt="Docker" height="40px" src="https://f.lyttle.it/RuweCl7dut.png"></a>
+-->
 <br>
 <br>
 

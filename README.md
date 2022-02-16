@@ -8,10 +8,10 @@ I mainly code in Javascript, and some of my projects are **Discord** bots and **
 This is my school accound, my main account can be found here: https://github.com/Stualyttle 
 
 I currently study web development at Artevelde college in Belgium.
-<br>
-<br>
-## Languages:
+<br> 
+<br> 
 
+## Languages:
 <a target="_blank" href="https://www.ecma-international.org/publications-and-standards/standards/"><img align="left" alt="JavaScript" height="33px" src="https://f.lyttle.it/DuaNti2sbq.png"></a>
 <a target="_blank" href="https://html.spec.whatwg.org/"><img align="left" alt="HTML" height="33px" src="https://f.lyttle.it/wZs7ssJ5e2.png"></a>
 <a target="_blank" href="https://www.w3.org/TR/CSS/#css"><img align="left" alt="CSS" height="33px" src="https://f.lyttle.it/HqcyCljrcu.png"></a>
@@ -22,15 +22,15 @@ I currently study web development at Artevelde college in Belgium.
 <br>
 <br>
 <br>
-## Editors:
 
+## Editors:
 <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img align="left" alt="Webstorm" height="33px" src="https://f.lyttle.it/XjRD5IpQrb.png"></a>
 <a target="_blank" href="https://www.jetbrains.com/pycharm/"><img align="left" alt="PyCharm" height="33px" src="https://f.lyttle.it/TPWQeBjdEC.png"></a>
 <br>
 <br>
 <br>
-## Stats:
 
+## Stats:
 <a target="_blank" href="https://www.stualyttle.com">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=pgm-kilidebo&bg_color=1d1f21&text_color=c9cacc&show_icons=true" alt="Main GitHub stats">
   <img align="right" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pgm-kilidebo&layout=compact&bg_color=1d1f21&text_color=c9cacc" alt="Most used languages on github">

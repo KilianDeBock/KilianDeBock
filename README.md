@@ -20,12 +20,14 @@ I currently study web development at Artevelde college in Belgium.
 <br>
 <br>
 <br>
+<br>
 
 ## Editors:
 <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img align="left" alt="Webstorm" height="33px" src="https://f.lyttle.it/XjRD5IpQrb.png"></a>
 <a target="_blank" href="https://www.jetbrains.com/pycharm/"><img align="left" alt="PyCharm" height="33px" src="https://f.lyttle.it/TPWQeBjdEC.png"></a>
 <a target="_blank" href="https://www.adobe.com/products/xd.html"><img align="left" alt="Adobe XD" height="33px" src="https://f.lyttle.it/VoggFqzCjH.png"></a>
 <a target="_blank" href="https://www.adobe.com/products/photoshop.html"><img align="left" alt="Adobe Photoshop" height="33px" src="https://f.lyttle.it/P4gsADeGqZ.png"></a>
+<br>
 <br>
 <br>
 <br>

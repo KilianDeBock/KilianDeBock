@@ -35,7 +35,6 @@ I currently study web development at Artevelde University of Applied Sciences in
 <br>
 <br>
 <br>
-<br>
 
 ## Stats:
 <a target="_blank" href="https://www.stualyttle.com">

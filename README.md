@@ -3,7 +3,7 @@
 <a target="_blank" href="https://wakatime.com/Stualyttle"><img align="right" width="48%" src="https://github-readme-stats.vercel.app/api/wakatime?username=Stualyttle&bg_color=1d1f21&text_color=c9cacc" alt="Wakatime Stats"></a>
 ### I'm Stualyttle, a junior developer starting to code!
 I mainly code in Javascript, some of my projects are **Discord** bots and **website** building.
-This is my school accound, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
+This is my school account, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
 
 I currently study web development at Artevelde college in Belgium.
 <br> 

@@ -1,7 +1,7 @@
 # Heye, hello there! 👋
 
 <a target="_blank" href="https://wakatime.com/Stualyttle"><img align="right" width="48%" src="https://github-readme-stats.vercel.app/api/wakatime?username=Stualyttle&bg_color=1d1f21&text_color=c9cacc" alt="Wakatime Stats"></a>
-### I'm Stualyttle, a junior developper starting to code!
+### I'm Stualyttle, a junior developer starting to code!
 I mainly code in Javascript, some of my projects are **Discord** bots and **website** building.
 This is my school accound, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
 
@@ -24,7 +24,7 @@ I currently study web development at Artevelde college in Belgium.
 <br>
 <br>
 
-## Editors & Technoligies:
+## Editors & Technologies:
 <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img align="left" alt="Webstorm" height="33px" src="https://f.lyttle.it/XjRD5IpQrb.png"></a>
 <a target="_blank" href="https://www.jetbrains.com/pycharm/"><img align="left" alt="PyCharm" height="33px" src="https://f.lyttle.it/TPWQeBjdEC.png"></a>
 <a target="_blank" href="https://www.adobe.com/products/xd.html"><img align="left" alt="Adobe XD" height="33px" src="https://f.lyttle.it/VoggFqzCjH.png"></a>

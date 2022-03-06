@@ -32,6 +32,7 @@ I currently study web development at Artevelde college in Belgium.
 <br>
 <br>
 <br>
+<br>
 
 ## Stats:
 <a target="_blank" href="https://www.stualyttle.com">

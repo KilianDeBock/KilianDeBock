@@ -5,7 +5,7 @@
 I mainly code in Javascript, some of my projects are **Discord** bots and **website** building.
 This is my school account, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
 
-I currently study web development at Artevelde college in Belgium.
+I currently study web development at Artevelde University of Applied Sciences in Belgium.
 <br> 
 <br> 
 <br>

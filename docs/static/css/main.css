@@ -1,14 +1,11 @@
+@import url("reset.css");
+@import url("defaults.css");
+@import url("components/index.css");
+
 :root {
-    --color-white-100: #fff;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* word-wrap: break-word; */
-}
-
-body {
-    font-family: "name", Helvetica, Arial, sans-serif;
+    --color__orange: #F7B262;
+    --color__yellow: #F9F871;
+    --color__red: #ecae9e;
+    --color__blue: #00C6CF;
+    --color__green: #00C896;
 }

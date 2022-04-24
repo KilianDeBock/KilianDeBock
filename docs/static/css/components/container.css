@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.height-container {
+    margin: 5rem auto;
+    max-width: 60rem;
+
+    padding: 2rem 4rem;
+    min-height: calc(100vh - 10rem);
+}
+
+.height-container__margin-fix {
+    padding-top: 5rem;
+}
+
+.height-container__margin-fix > .height-container {
+    margin-top: 0;
+}

@@ -18,7 +18,7 @@
     display: block;
     position: fixed;
     width: calc(150vw + 150vh);
-    opacity: .02;
+    opacity: .1;
     height: 15vh;
     top: 45vh;
     transform-origin: 50% 50%;

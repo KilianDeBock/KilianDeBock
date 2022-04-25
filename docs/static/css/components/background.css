@@ -10,10 +10,6 @@
     justify-content: center;
 }
 
-.background.active .background__line {
-    transition: transform 20s ease-in-out;
-}
-
 .background__line {
     display: block;
     position: fixed;

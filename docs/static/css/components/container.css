@@ -18,3 +18,8 @@
 .height-container__margin-fix > .height-container {
     margin-top: 0;
 }
+
+.height-container__fill {
+    width: 100%;
+    height: calc(100vh - 14rem);
+}

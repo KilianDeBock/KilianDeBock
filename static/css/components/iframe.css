@@ -1,0 +1,17 @@
+iframe {
+    border: none;
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.iframe-focus {
+    font-size: 1rem;
+}
+
+.iframe-focus:focus iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}

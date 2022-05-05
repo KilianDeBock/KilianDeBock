@@ -1,0 +1,15 @@
+.main-nav {
+    top: 0;
+    position: fixed;
+    background-color: rgba(28, 28, 187, 0.5);
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-nav__list {
+    display: flex;
+    gap: 2rem;
+}

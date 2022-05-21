@@ -24,6 +24,10 @@
   }
 }
 
+.margin-left-auto {
+  margin-left: auto;
+}
+
 @for $i from 1 through 20 {
   @media (min-width: $width-desktop-small) {
     .margin-right-#{$i} {

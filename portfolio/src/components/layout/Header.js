@@ -2,7 +2,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="container split-view">
+    <header className="header padding-left-3 container split-view">
       <div className="next-to-each-other">
         <img
           className="max-width-2"
@@ -11,9 +11,7 @@ const Header = () => {
         />
         <p className="txt__title">Stualyttle Kirry</p>
       </div>
-      <nav>
-        <Navigation />
-      </nav>
+      <Navigation />
     </header>
   );
 };

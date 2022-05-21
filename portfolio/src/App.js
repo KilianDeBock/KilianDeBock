@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import "./App.scss";
-import { AboutPage, ContactPage, HomePage } from "./pages";
+import { AboutPage, ContactPage, HomePage, PortfolioPage } from "./pages";
 import { BaseLayout } from "./components/layout";
 import BigBgLayout from "./components/layout/BigBgLayout";
 
@@ -14,6 +14,7 @@ function App() {
         </Route>
         <Route path="/" element={<BaseLayout />}>
           <Route path="about" element={<AboutPage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>

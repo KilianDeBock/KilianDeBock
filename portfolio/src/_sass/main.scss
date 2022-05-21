@@ -1,2 +1,4 @@
-@use 'reset';
-@use 'defaults';
+@import 'base';
+@import 'abstracts';
+@import 'layouts';
+@import 'components';

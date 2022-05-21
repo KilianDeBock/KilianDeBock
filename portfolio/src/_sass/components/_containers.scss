@@ -1,0 +1,16 @@
+@for $i from 1 through 20 {
+  .max-width-#{$i} {
+    max-width: #{$i}rem;
+    width: 100%;
+  }
+}
+
+.next-to-each-other {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-start {
+  align-items: flex-start;
+}

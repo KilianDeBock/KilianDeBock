@@ -1,0 +1,21 @@
+.split-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:not(.un-growable) > * {
+    flex: 1;
+  }
+
+  .un-growable {
+    flex-direction: row;
+  }
+
+  @media (min-width: $width-desktop-small) {
+    flex-direction: row;
+  }
+
+  .split-view__align-left {
+  }
+}

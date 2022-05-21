@@ -6,3 +6,9 @@ $color-green-300: #03E6B8;
 $color-yellow-300: #E5E590;
 $gradient-green-300-blue-900: linear-gradient(to right, #03E6B8, #1B2034);
 $gradient-blue-700-blue-800: linear-gradient(45deg, #151934, #2C3457);
+
+// Media query widths
+$width-desktop-large: 70rem;
+$width-desktop-small: 52rem;
+$width-tablet: 35rem;
+$width-mobile: 20rem;

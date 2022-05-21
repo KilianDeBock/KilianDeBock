@@ -4,7 +4,12 @@ h2,
   display: block;
 }
 
-h1 {
+h1,
+.txt__title {
   font-weight: 700;
   color: $color-green-300;
+}
+
+.txt__title {
+  font-size: 2rem;
 }

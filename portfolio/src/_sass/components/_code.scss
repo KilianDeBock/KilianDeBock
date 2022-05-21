@@ -1,0 +1,32 @@
+.code {
+  display: inline-block;
+  width: fit-content;
+  padding: 2rem;
+  background: $gradient-blue-700-blue-800;
+  font-family: 'Consolas', 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: $color-green-300;
+  line-height: 1.2rem;
+
+  .code__line {
+    display: block;
+  }
+
+  @for $i from 1 through 20 {
+    .code__tab-#{$i} {
+      margin-left: #{$i}rem;
+    }
+  }
+
+  .code__variable {
+    color: $color-pink-300;
+  }
+
+  .code__key {
+    color: $color-yellow-300;
+  }
+
+  .code__value {
+    color: $color-blue-300;
+  }
+}

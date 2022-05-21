@@ -33,7 +33,10 @@ html:focus-within {
   }
 }
 
-body {
+// Add ',#root, #root > *' for react support.
+body,
+#root,
+#root > * {
   line-height: 1;
   min-height: 100vh;
   text-rendering: optimizeSpeed;

@@ -1,26 +1,32 @@
-import { NavLink as RRNavLink } from "react-router-dom";
-
-import { Nav, NavItem, NavLink } from "reactstrap";
+import { useLocation } from "react-router-dom";
 
 const Navigation = () => {
+  const { pathname } = useLocation();
+
+  const isActive = (location) => {
+    return location === pathname ? "active" : "";
+  };
+
   return (
-    <Nav className="me-auto" navbar>
-      <NavItem>
-        <NavLink tag={RRNavLink} to="/">
-          Home
-        </NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink tag={RRNavLink} to="/about">
-          About
-        </NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink tag={RRNavLink} to="/contact">
-          Contact
-        </NavLink>
-      </NavItem>
-    </Nav>
+    <nav>
+      <ul>
+        <li>
+          <a className={isActive("/")} href="/">
+            Home
+          </a>
+        </li>
+        <li>
+          <a className={isActive("/about")} href="/about">
+            About
+          </a>
+        </li>
+        <li>
+          <a className={isActive("/contact")} href="/contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

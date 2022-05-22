@@ -8,15 +8,15 @@ const Navigation = () => {
     return location === pathname ? "main-nav__item active" : "main-nav__item";
   };
 
-  const menu = useRef(null);
+  const navigation = useRef(null);
 
   const handleHamburgerClick = (e) => {
-    menu.current.classList.toggle("active");
+    navigation.current.classList.toggle("active");
   };
 
   return (
-    <nav className="main-nav">
-      <div ref={menu} className="main-nav__menu">
+    <nav ref={navigation} className="main-nav">
+      <div className="main-nav__menu">
         <ul className="main-nav__items">
           <li>
             <a className={isActive("/")} href="/">

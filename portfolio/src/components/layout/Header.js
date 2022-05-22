@@ -2,8 +2,8 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="header padding-left-3 container split-view">
-      <div className="next-to-each-other">
+    <header className="header">
+      <div className="header__title">
         <img
           className="max-width-2"
           src="/media/images/tiny-blob-2.svg"

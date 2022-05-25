@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50b058e6.css",
-    "main.js": "/static/js/main.ae751d5f.js",
+    "main.css": "/static/css/main.2ce001c5.css",
+    "main.js": "/static/js/main.c9a67f8f.js",
     "static/media/Consolas Bold Italic.woff": "/static/media/Consolas Bold Italic.cea9e610b118edf9687f.woff",
     "static/media/Consolas Italic.woff": "/static/media/Consolas Italic.6f30469e4948af612b95.woff",
     "static/media/Consolas Bold.woff": "/static/media/Consolas Bold.617672e0c9f56c07443a.woff",
@@ -46,15 +46,16 @@
     "static/media/Poppins Light.woff2": "/static/media/Poppins Light.5f1024cecf2d36a5bdf7.woff2",
     "static/media/Poppins ExtraLight.woff2": "/static/media/Poppins ExtraLight.9bd22f5e9786cb86ae8e.woff2",
     "static/media/Poppins Thin.woff2": "/static/media/Poppins Thin.5759a56e1c1d0b4a1060.woff2",
+    "static/media/hamburger-close.svg": "/static/media/hamburger-close.20289158251f5c34d38b.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.93672199ab635da61aa6.svg",
+    "static/media/menu.svg": "/static/media/menu.2e308d0b3773e05f4cc2.svg",
     "static/media/big-blob.svg": "/static/media/big-blob.9630f16f14ba25b7fdf6.svg",
-    "static/media/menu-empty.svg": "/static/media/menu-empty.f53103e969755c2d7236.svg",
     "index.html": "/index.html",
-    "main.50b058e6.css.map": "/static/css/main.50b058e6.css.map",
-    "main.ae751d5f.js.map": "/static/js/main.ae751d5f.js.map"
+    "main.2ce001c5.css.map": "/static/css/main.2ce001c5.css.map",
+    "main.c9a67f8f.js.map": "/static/js/main.c9a67f8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b058e6.css",
-    "static/js/main.ae751d5f.js"
+    "static/css/main.2ce001c5.css",
+    "static/js/main.c9a67f8f.js"
   ]
 }

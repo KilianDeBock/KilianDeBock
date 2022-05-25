@@ -17,6 +17,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://kiliandebock.github.io/Gentse-Feesten-Clone/"
               target="_blank"
+              rel="noreferrer"
             >
               https://kiliandebock.github.io/Gentse-Feesten-Clone/
             </a>
@@ -28,6 +29,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://github.com/KilianDeBock/Gentse-Feesten-Clone"
               target="_blank"
+              rel="noreferrer"
             >
               https://github.com/KilianDeBock/Gentse-Feesten-Clone
             </a>
@@ -35,7 +37,10 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img">
-          <iframe src="https://kiliandebock.github.io/Gentse-Feesten-Clone/"></iframe>
+          <iframe
+            title="gent"
+            src="https://kiliandebock.github.io/Gentse-Feesten-Clone/"
+          ></iframe>
         </div>
       </div>
       <div className="grid grid--2-text grid--2-text-reverse grid--center">
@@ -49,6 +54,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://kiliandebock.github.io/She-Code-Africa"
               target="_blank"
+              rel="noreferrer"
             >
               https://kiliandebock.github.io/She-Code-Africa
             </a>
@@ -60,6 +66,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://github.com/KilianDeBock/She-Code-Africa"
               target="_blank"
+              rel="noreferrer"
             >
               https://github.com/KilianDeBock/She-Code-Africa
             </a>
@@ -67,7 +74,10 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img code--img__highlight">
-          <iframe src="https://kiliandebock.github.io/She-Code-Africa/"></iframe>
+          <iframe
+            title="she"
+            src="https://kiliandebock.github.io/She-Code-Africa/"
+          ></iframe>
         </div>
       </div>
       <div className="grid grid--2-text grid--center">
@@ -81,6 +91,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://kiliandebock.github.io/Arne-Quinze-Clone/"
               target="_blank"
+              rel="noreferrer"
             >
               https://kiliandebock.github.io/Arne-Quinze-Clone/
             </a>
@@ -92,6 +103,7 @@ const ContactPage = () => {
               className="code__value"
               href="https://github.com/KilianDeBock/Arne-Quinze-Clone"
               target="_blank"
+              rel="noreferrer"
             >
               https://github.com/KilianDeBock/Arne-Quinze-Clone
             </a>
@@ -99,7 +111,10 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img">
-          <iframe src="https://kiliandebock.github.io/Arne-Quinze-Clone/"></iframe>
+          <iframe
+            title="arne"
+            src="https://kiliandebock.github.io/Arne-Quinze-Clone/"
+          ></iframe>
         </div>
       </div>
       <div className="grid grid--2-text grid--2-text-reverse grid--center">
@@ -114,7 +129,10 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img code--img__highlight">
-          <iframe src="https://www.kiliandebock.be/portfolio"></iframe>
+          <iframe
+            title="portfolio"
+            src="https://www.kiliandebock.be/portfolio"
+          ></iframe>
         </div>
       </div>
     </section>

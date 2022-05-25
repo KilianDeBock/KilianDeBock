@@ -8,14 +8,18 @@ import BigBgLayout from "./components/layout/BigBgLayout";
 function App() {
   return (
     <div className="app">
-      <Routes>
-        <Route path="/" element={<BigBgLayout />}>
+      <Routes basename="/KilianDeBock">
+        <Route exact path="/KilianDeBock" element={<BigBgLayout />}>
           <Route index element={<HomePage />} />
         </Route>
-        <Route path="/" element={<BaseLayout />}>
-          <Route path="about" element={<AboutPage />} />
-          <Route path="portfolio" element={<PortfolioPage />} />
-          <Route path="contact" element={<ContactPage />} />
+        <Route path="/KilianDeBock" element={<BaseLayout />}>
+          <Route exact path="/KilianDeBock/about" element={<AboutPage />} />
+          <Route
+            exact
+            path="/KilianDeBock/portfolio"
+            element={<PortfolioPage />}
+          />
+          <Route exact path="/KilianDeBock/contact" element={<ContactPage />} />
         </Route>
       </Routes>
     </div>

@@ -30,7 +30,7 @@ const HomePage = () => {
           <h2>Hello there!</h2>
           <article className="code">
             <div className="code__line">
-              <span className="code__variable">Person</span> {hookL}
+              const <span className="code__variable">Person</span> {hookL}
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">firstName</span>:{" "}
@@ -44,7 +44,7 @@ const HomePage = () => {
           </article>
           <article className="code margin-left-5">
             <div className="code__line">
-              <span className="code__variable">MetaData</span> {hookL}
+              const <span className="code__variable">MetaData</span> {hookL}
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">profession</span>:{" "}
@@ -120,21 +120,6 @@ const HomePage = () => {
           </article>
         </div>
       </section>
-
-      {/*<section className="container">*/}
-      {/*  <h2>Portfolio Work</h2>*/}
-      {/*  <div className="grid grid--3-highlight grid--center">*/}
-      {/*    <article className="code code--fill code--img">*/}
-      {/*      <iframe src="https://kiliandebock.github.io/Gentse-Feesten-Clone/"></iframe>*/}
-      {/*    </article>*/}
-      {/*    <article className="code code--fill code--img code--img__highlight">*/}
-      {/*      <iframe src="https://kiliandebock.github.io/She-Code-Africa/"></iframe>*/}
-      {/*    </article>*/}
-      {/*    <article className="code code--fill code--img">*/}
-      {/*      <iframe src="https://kiliandebock.github.io/Arne-Quinze-Clone/"></iframe>*/}
-      {/*    </article>*/}
-      {/*  </div>*/}
-      {/*</section>*/}
     </>
   );
 };

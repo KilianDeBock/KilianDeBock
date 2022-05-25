@@ -1,3 +1,5 @@
+import React from "react";
+
 const ContactPage = () => {
   const hookL = "{";
   const hookR = "}";

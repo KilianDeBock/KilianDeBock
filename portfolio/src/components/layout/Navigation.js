@@ -24,17 +24,17 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a className={isActive("/about")} href="/about">
+            <a className={isActive("/about")} href="/#/about">
               About
             </a>
           </li>
           <li>
-            <a className={isActive("/portfolio")} href="/portfolio">
+            <a className={isActive("/portfolio")} href="/#/portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a className={isActive("/contact")} href="/contact">
+            <a className={isActive("/contact")} href="/#/contact">
               Contact
             </a>
           </li>

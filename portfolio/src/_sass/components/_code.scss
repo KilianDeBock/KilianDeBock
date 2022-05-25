@@ -1,6 +1,7 @@
 .code {
   margin-bottom: 1.5rem;
   display: block;
+  position: relative;
   width: fit-content;
   padding: 2rem;
   background: $gradient-blue-700-blue-800;
@@ -8,6 +9,50 @@
   font-weight: 500;
   color: $color-green-300;
   line-height: 1.2rem;
+
+  &:not(.code--fill):first-of-type {
+    margin-top: 2rem;
+  }
+
+  &.code--fill {
+    width: 100%;
+  }
+
+  &.code--space {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  &.code--text {
+    color: $color-blue-300;
+  }
+
+  &.code--img {
+    padding: 0;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+
+    img,
+    iframe {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border: none;
+      object-fit: cover;
+      background-color: white;
+    }
+  }
+
+  .code__title {
+    left: .8rem;
+    top: -.7rem;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    color: $color-green-300;
+    font-family: Poppins, sans-serif;
+  }
 
   .code__line {
     display: block;

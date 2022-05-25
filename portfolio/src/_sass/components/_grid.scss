@@ -1,0 +1,30 @@
+.grid {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+
+  &.grid--end {
+    align-items: end;
+  }
+
+  &.grid--center {
+    align-items: center;
+  }
+
+  &.grid--4 {
+    @media (min-width: $width-desktop-small) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $width-desktop-large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &.grid--3-highlight {
+    @media (min-width: $width-desktop-small) {
+      grid-template-columns: 1fr 1.5fr 1fr;
+    }
+  }
+}

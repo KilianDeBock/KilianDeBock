@@ -40,7 +40,6 @@ const Navigation = () => {
           </li>
         </ul>
       </div>
-      <div className="main-nav__brother"></div>
       <button
         onClick={(e) => handleHamburgerClick(e)}
         className="main-nav__hamburger"

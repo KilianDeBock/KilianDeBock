@@ -5,10 +5,20 @@
   display: inline-block;
 
   &:not(.active) > div {
-    display: none;
+    opacity: 0;
+    transform: translate(30%, -100%);
+
+    a {
+      pointer-events: none;
+    }
+  }
+
+  &:not(.active) > .main-nav__hamburger {
+    background-image: url('../../../public/media/icons/hamburger.svg');
   }
 
   .main-nav__hamburger {
+    transition: background-image .1s ease-in-out;
     position: absolute;
     display: inline-block;
     top: 2rem;
@@ -17,19 +27,20 @@
     height: 5rem;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../../../public/media/icons/hamburger.svg');
+    background-image: url('../../../public/media/icons/hamburger-close.svg');
   }
 
-  .main-nav__menu,
-  .main-nav__brother {
+  .main-nav__menu {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 1;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 32rem;
+    right: -30rem;
+    width: 64rem;
     height: 32rem;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../../../public/media/icons/menu-empty.svg');
+    background-image: url('../../../public/media/icons/menu.svg');
 
     .main-nav__items {
       display: flex;
@@ -45,11 +56,5 @@
         font-weight: 600;
       }
     }
-  }
-
-  .main-nav__brother {
-    background-image: url('../../../public/media/icons/menu-empty.svg');
-    transform: scaleX(-1);
-    transform-origin: 99%;
   }
 }

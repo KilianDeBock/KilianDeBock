@@ -133,7 +133,7 @@ const ContactPage = () => {
         <div className="code code--fill code--img code--img__highlight">
           <iframe
             title="portfolio"
-            src="https://www.kiliandebock.be/portfolio"
+            src="https://www.kiliandebock.be/#/portfolio"
           ></iframe>
         </div>
       </div>

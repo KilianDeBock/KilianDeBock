@@ -1,0 +1,58 @@
+.code {
+  margin-bottom: 1.5rem;
+  display: block;
+  position: relative;
+  width: fit-content;
+  padding: 2rem;
+  background: $gradient-blue-700-blue-800;
+  font-family: 'Consolas', 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: $color-green-300;
+  line-height: 1.2rem;
+
+  &:not(.code--fill):first-of-type {
+    margin-top: 2rem;
+  }
+
+  &.code--fill {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+  &.code--text {
+    color: $color-blue-300;
+  }
+
+  .code__title {
+    left: .8rem;
+    top: -.7rem;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    color: $color-green-300;
+    font-family: Poppins, sans-serif;
+  }
+
+  .code__line {
+    display: block;
+  }
+
+  @for $i from 1 through 20 {
+    .code__tab-#{$i} {
+      margin-left: #{$i}rem;
+    }
+  }
+
+  .code__variable {
+    color: $color-pink-300;
+  }
+
+  .code__key {
+    color: $color-yellow-300;
+  }
+
+  .code__value {
+    color: $color-blue-300;
+  }
+}

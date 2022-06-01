@@ -1,7 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 
 import "./App.scss";
-import { AboutPage, ContactPage, HomePage, PortfolioPage } from "./pages";
+import {
+  AboutPage,
+  ContactPage,
+  HomePage,
+  PointsCalculatePage,
+  PortfolioPage,
+} from "./pages";
 import { BaseLayout } from "./components/layout";
 import BigBgLayout from "./components/layout/BigBgLayout";
 
@@ -16,6 +22,9 @@ function App() {
           <Route exact path="/about" element={<AboutPage />} />
           <Route exact path="/portfolio" element={<PortfolioPage />} />
           <Route exact path="/contact" element={<ContactPage />} />
+        </Route>
+        <Route path="/tools" element={<BaseLayout />}>
+          <Route exact path="/tools/points" element={<PointsCalculatePage />} />
         </Route>
       </Routes>
     </div>

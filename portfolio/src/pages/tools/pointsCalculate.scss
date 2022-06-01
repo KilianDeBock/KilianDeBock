@@ -1,0 +1,45 @@
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  > * {
+    text-align: center;
+    margin-top: .5rem;
+    display: block;
+  }
+}
+
+input {
+  background-color: #cef3ff;
+  color: black;
+}
+
+.un-editable {
+  display: flex;
+  gap: 1.8rem;
+
+  input {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+  }
+
+  .validField {
+    background-color: #cef3ff;
+    color: black;
+  }
+}

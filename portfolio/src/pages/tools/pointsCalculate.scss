@@ -8,7 +8,11 @@ form {
 
 .group {
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
+}
+
+.half-width > * {
+  width: 5rem;
 }
 
 label {
@@ -26,6 +30,8 @@ label {
 
 input {
   background-color: #cef3ff;
+  text-align: center;
+  width: 10.5rem;
   color: black;
 }
 
@@ -39,7 +45,13 @@ input {
   }
 
   .validField {
-    background-color: #cef3ff;
+    transition: opacity 0.3s ease-in-out;
+    background-color: #b7ac92;
     color: black;
+    opacity: .2;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 }

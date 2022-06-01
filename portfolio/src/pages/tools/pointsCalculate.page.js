@@ -7,6 +7,9 @@ const PointsCalculatePage = () => {
   const [keyLength, setKeyLength] = useState(0);
   const [total, setTotal] = useState({});
   const [endNumber, setEndNumber] = useState(20);
+  const [pTotal, setPTotal] = useState(null);
+  const [tTotal, setTTotal] = useState(null);
+  const [tPercentage, setTPercentage] = useState(null);
 
   useEffect(() => {
     const P = Object.values(points[0]).filter((point) => point !== 0);
@@ -21,17 +24,19 @@ const PointsCalculatePage = () => {
       setId(id + 1);
     }
 
-    const PTotal = Object.values(points[0]).reduce((acc, value) => value + acc);
-    const TTotal = Object.values(points[1]).reduce((acc, value) => value + acc);
+    const PTotal =
+      pTotal ?? Object.values(points[0]).reduce((acc, value) => value + acc);
+    const TTotal =
+      tTotal ?? Object.values(points[1]).reduce((acc, value) => value + acc);
     const totalPoints = `${PTotal}/${TTotal}`;
-    const percentage = (PTotal / TTotal) * 100 || 0;
+    const percentage = tPercentage ?? ((PTotal / TTotal) * 100 || 0);
     const toEndNr = (percentage / 100) * endNumber;
     setTotal({
       points: totalPoints,
       percentage: Math.round(percentage * 100) / 100,
       toEndNr: Math.round(toEndNr * 100) / 100,
     });
-  }, [points, id, keyLength, endNumber]);
+  }, [points, id, keyLength, endNumber, pTotal, tTotal, tPercentage]);
 
   const updatePoints = ({ target }) => {
     const newPoints = { ...points };
@@ -66,7 +71,7 @@ const PointsCalculatePage = () => {
       <form action="#">
         <article className="group">
           <label>
-            Gotten Points
+            Your Points:
             {points[0] &&
               Object.entries(points[0]).map(([key, value], i) => {
                 return (
@@ -81,7 +86,7 @@ const PointsCalculatePage = () => {
               })}
           </label>
           <label>
-            Total Possible Points
+            Points Possible:
             {points[1] &&
               Object.entries(points[1]).map(([key, value], i) => {
                 return (
@@ -100,13 +105,36 @@ const PointsCalculatePage = () => {
           <label>
             Total Points:
             <input type="text" readOnly value={total.points} />
+            <div className="group half-width">
+              <input
+                className="validField"
+                type="number"
+                onChange={({ target }) =>
+                  setPTotal(Number.parseFloat(target.value) || null)
+                }
+              />
+              <input
+                className="validField"
+                type="number"
+                onChange={({ target }) =>
+                  setTTotal(Number.parseFloat(target.value) || null)
+                }
+              />
+            </div>
           </label>
           <label>
             Total Percentage:
             <input type="text" readOnly value={total.percentage} />
+            <input
+              className="validField"
+              type="number"
+              onChange={({ target }) =>
+                setTPercentage(Number.parseFloat(target.value) || null)
+              }
+            />
           </label>
           <label>
-            % To End Number:
+            % To End Total:
             <input
               type="text"
               readOnly

@@ -9,13 +9,33 @@ form {
 .group {
   display: flex;
   gap: .5rem;
+
+  &.spread {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  span {
+    margin-right: .5rem;
+
+    &:before {
+      content: '= ';
+    }
+
+    &:after {
+      content: '%';
+    }
+  }
 }
 
 .half-width > * {
   width: 5rem;
 }
 
-label {
+label,
+.label {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -33,6 +53,10 @@ input {
   text-align: center;
   width: 10.5rem;
   color: black;
+
+  &[value="0"] {
+    background-color: #ffd0ce;
+  }
 }
 
 .un-editable {
@@ -43,15 +67,19 @@ input {
     background-color: rgba(255, 255, 255, 0.5);
     color: white;
   }
+}
 
-  .validField {
-    transition: opacity 0.3s ease-in-out;
-    background-color: #b7ac92;
-    color: black;
-    opacity: .2;
+input.validField {
+  transition: opacity 0.3s ease-in-out;
+  background-color: #b7ac92;
+  color: black;
+  opacity: .2;
 
-    &:hover {
-      opacity: 1;
-    }
+  &.small {
+    width: 3rem;
+  }
+
+  &:hover {
+    opacity: 1;
   }
 }

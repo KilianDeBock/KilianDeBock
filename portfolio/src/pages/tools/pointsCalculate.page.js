@@ -77,6 +77,7 @@ const PointsCalculatePage = () => {
 
     setTotal({
       points: totalPoints,
+      tPoints: TTotal,
       percentage: Math.round(percentage * 100) / 100,
       toEndNr: Math.round(toEndNr * 100) / 100,
     });
@@ -212,7 +213,7 @@ const PointsCalculatePage = () => {
           </label>
           <label>
             Total Percentage:
-            <input type="text" readOnly value={total.percentage || ""} />
+            <input type="text" readOnly value={total.percentage || 0} />
             <input
               className="validField"
               type="number"
@@ -227,7 +228,9 @@ const PointsCalculatePage = () => {
             <input
               type="text"
               readOnly
-              value={total.toEndNr + "/" + endNumber}
+              value={
+                (total.toEndNr || 0) + "/" + (total.tPoints ? endNumber : 0)
+              }
             />
             <input
               className="validField"

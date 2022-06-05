@@ -119,24 +119,6 @@ const ContactPage = () => {
           ></iframe>
         </div>
       </div>
-      <div className="grid grid--2-text grid--2-text-reverse grid--center">
-        <article className="code">
-          <div className="code__line">
-            const <span className="code__variable">myPortfolio</span> {hookL}
-          </div>
-          <div className="code__line code__tab-1">
-            <span className="code__key">why</span>:{" "}
-            <span className="code__value">"for infinite loops"</span>,
-          </div>
-          <div className="code__line">{hookR}</div>
-        </article>
-        <div className="code code--fill code--img code--img__highlight">
-          <iframe
-            title="portfolio"
-            src="https://www.kiliandebock.be/#/portfolio"
-          ></iframe>
-        </div>
-      </div>
     </section>
   );
 };

@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
 const Navigation = () => {
@@ -30,24 +30,24 @@ const Navigation = () => {
         <div className="main-nav__menu">
           <ul className="main-nav__items">
             <li>
-              <a className={isActive("/")} href="/">
+              <Link className={isActive("/")} to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={isActive("/about")} href="/#/about">
+              <Link className={isActive("/about")} to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={isActive("/portfolio")} href="/#/portfolio">
+              <Link className={isActive("/portfolio")} to="/portfolio">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={isActive("/contact")} href="/#/contact">
+              <Link className={isActive("/contact")} to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

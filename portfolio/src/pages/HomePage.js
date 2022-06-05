@@ -33,12 +33,12 @@ const HomePage = () => {
               const <span className="code__variable">Person</span> {hookL}
             </div>
             <div className="code__line code__tab-1">
-              <span className="code__key">firstName</span>:{" "}
-              <span className="code__value">Kilian</span>,
+              <span className="code__key">firstname</span>:{" "}
+              <span className="code__value">"Kilian"</span>,
             </div>
             <div className="code__line code__tab-1">
-              <span className="code__key">lastName</span>:{" "}
-              <span className="code__value">De Bock</span>
+              <span className="code__key">lastname</span>:{" "}
+              <span className="code__value">"De Bock"</span>
             </div>
             <div className="code__line">{hookR}</div>
           </article>
@@ -48,18 +48,18 @@ const HomePage = () => {
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">profession</span>:{" "}
-              <span className="code__value"> Fullstack Developer</span>,
+              <span className="code__value">"Fullstack Developer"</span>,
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">markup</span>: {hookL}{" "}
-              <span className="code__value">HTML</span>,{" "}
-              <span className="code__value">CSS</span>,{" "}
-              <span className="code__value">JS</span>,{" "}
-              <span className="code__value">TS</span> {hookR},
+              <span className="code__value">"HTML"</span>,{" "}
+              <span className="code__value">"CSS"</span>,{" "}
+              <span className="code__value">"JS"</span>,{" "}
+              <span className="code__value">"TS"</span> {hookR},
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">education</span>:{" "}
-              <span className="code__value">Artevelde University</span>
+              <span className="code__value">"Artevelde University"</span>
             </div>
             <div className="code__line">{hookR}</div>
           </article>

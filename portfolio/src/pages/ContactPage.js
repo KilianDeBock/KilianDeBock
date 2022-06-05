@@ -7,36 +7,22 @@ const ContactPage = () => {
   return (
     <section className="container">
       <h2>Contact me</h2>
-      <article className="code">
-        <div className="code__line">
-          const <span className="code__variable">belgianCityFestival</span>{" "}
-          {hookL}
-        </div>
-        <div className="code__line code__tab-1">
-          <span className="code__key">Pages</span>:{" "}
-          <a
-            className="code__value"
-            href="https://kiliandebock.github.io/Gentse-Feesten-Clone/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            https://kiliandebock.github.io/Gentse-Feesten-Clone/
-          </a>
-          ,
-        </div>
-        <div className="code__line code__tab-1">
-          <span className="code__key">Code</span>:{" "}
-          <a
-            className="code__value"
-            href="https://github.com/KilianDeBock/Gentse-Feesten-Clone"
-            target="_blank"
-            rel="noreferrer"
-          >
-            https://github.com/KilianDeBock/Gentse-Feesten-Clone
-          </a>
-        </div>
-        <div className="code__line">{hookR}</div>
-      </article>
+      <div className="grid">
+        <article className="code code--fill">
+          <div className="code__line">
+            const <span className="code__variable">Contact</span> {hookL}
+          </div>
+          <div className="code__line code__tab-1">
+            <span className="code__key">email</span>:{" "}
+            <span className="code__value">"debockkilian@gmail.com"</span>,
+          </div>
+          <div className="code__line code__tab-1">
+            <span className="code__key">telephone</span>:{" "}
+            <span className="code__value">0032470216421</span>
+          </div>
+          <div className="code__line">{hookR}</div>
+        </article>
+      </div>
     </section>
   );
 };

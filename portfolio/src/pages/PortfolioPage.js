@@ -4,6 +4,14 @@ const ContactPage = () => {
   const hookL = "{";
   const hookR = "}";
 
+  const toggleIframe = ({ target }) => {
+    target.classList.toggle("active");
+  };
+
+  const closeIframe = ({ target }) => {
+    target.parentNode.classList.remove("active");
+  };
+
   return (
     <section className="container">
       <h2>Portfolio Work</h2>
@@ -39,10 +47,16 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img">
-          <iframe
-            title="gent"
-            src="https://kiliandebock.github.io/Gentse-Feesten-Clone/"
-          ></iframe>
+          <button
+            className="iframe"
+            onMouseLeave={(e) => closeIframe(e)}
+            onClick={(e) => toggleIframe(e)}
+          >
+            <iframe
+              title="gent"
+              src="https://kiliandebock.github.io/Gentse-Feesten-Clone/"
+            ></iframe>
+          </button>
         </div>
       </div>
       <div className="grid grid--2-text grid--2-text-reverse grid--center">
@@ -76,10 +90,16 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img code--img__highlight">
-          <iframe
-            title="she"
-            src="https://kiliandebock.github.io/She-Code-Africa/"
-          ></iframe>
+          <button
+            className="iframe"
+            onMouseLeave={(e) => closeIframe(e)}
+            onClick={(e) => toggleIframe(e)}
+          >
+            <iframe
+              title="she"
+              src="https://kiliandebock.github.io/She-Code-Africa/"
+            ></iframe>
+          </button>
         </div>
       </div>
       <div className="grid grid--2-text grid--center">
@@ -113,10 +133,16 @@ const ContactPage = () => {
           <div className="code__line">{hookR}</div>
         </article>
         <div className="code code--fill code--img">
-          <iframe
-            title="arne"
-            src="https://kiliandebock.github.io/Arne-Quinze-Clone/"
-          ></iframe>
+          <button
+            className="iframe"
+            onMouseLeave={(e) => closeIframe(e)}
+            onClick={(e) => toggleIframe(e)}
+          >
+            <iframe
+              title="arne"
+              src="https://kiliandebock.github.io/Arne-Quinze-Clone/"
+            ></iframe>
+          </button>
         </div>
       </div>
     </section>

@@ -138,9 +138,10 @@ const PointsCalculatePage = () => {
   return (
     <section>
       <form action="#">
+        <h2 className="margin-left-0 margin-bottom-2">Points Input</h2>
         <article className="group">
           <div className="label">
-            <label>Your Points:</label>
+            <label>*Received:</label>
             {points[0] &&
               Object.entries(points[0]).map(([key, value], i) => {
                 return (
@@ -155,7 +156,7 @@ const PointsCalculatePage = () => {
               })}
           </div>
           <div className="label">
-            <label>Points Possible:</label>
+            <label>*Total:</label>
             {points[1] &&
               Object.entries(points[1]).map(([key, value], i) => {
                 return (
@@ -170,7 +171,7 @@ const PointsCalculatePage = () => {
               })}
           </div>
           <div className="label">
-            <label>Weight</label>
+            <label>%, Weight</label>
             {points[2] &&
               Object.entries(points[2]).map(([key, value], i) => {
                 return (
@@ -188,9 +189,10 @@ const PointsCalculatePage = () => {
               })}
           </div>
         </article>
+        <h2 className="margin-left-0 margin-top-5 margin-bottom-2">Total</h2>
         <article className="un-editable">
           <label>
-            Total Points:
+            Points:
             <input type="text" readOnly value={total.points || ""} />
             <div className="group half-width">
               <input
@@ -212,7 +214,7 @@ const PointsCalculatePage = () => {
             </div>
           </label>
           <label>
-            Total Percentage:
+            Percentage:
             <input type="text" readOnly value={total.percentage || 0} />
             <input
               className="validField"
@@ -224,7 +226,7 @@ const PointsCalculatePage = () => {
             />
           </label>
           <label>
-            % To End Total:
+            Number:
             <input
               type="text"
               readOnly

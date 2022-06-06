@@ -2,7 +2,6 @@ form {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
   align-items: center;
 }
 
@@ -31,7 +30,7 @@ form {
 }
 
 .half-width > * {
-  width: 5rem;
+  width: 2.5rem;
 }
 
 label,
@@ -51,7 +50,7 @@ label,
 input {
   background-color: #cef3ff;
   text-align: center;
-  width: 10.5rem;
+  width: 5.5rem;
   color: black;
 
   &[value="0"] {
@@ -61,7 +60,7 @@ input {
 
 .un-editable {
   display: flex;
-  gap: 1.8rem;
+  gap: 1rem;
 
   input {
     background-color: rgba(255, 255, 255, 0.5);

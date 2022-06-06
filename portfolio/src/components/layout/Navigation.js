@@ -49,6 +49,11 @@ const Navigation = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link className={isActive("/contact")} to="/tools">
+                Tools
+              </Link>
+            </li>
           </ul>
         </div>
         <button

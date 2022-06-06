@@ -9,6 +9,7 @@ import {
   HomePage,
   PointsCalculatePage,
   PortfolioPage,
+  ToolsPage,
 } from "./pages";
 import { BaseLayout } from "./components/layout";
 
@@ -26,6 +27,7 @@ root.render(
         <Route exact path="/contact" element={<ContactPage />} />
       </Route>
       <Route path="/tools" element={<BaseLayout />}>
+        <Route index element={<ToolsPage />} />
         <Route exact path="/tools/points" element={<PointsCalculatePage />} />
       </Route>
     </Routes>

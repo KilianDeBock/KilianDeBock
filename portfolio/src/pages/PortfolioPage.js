@@ -145,6 +145,39 @@ const ContactPage = () => {
           </button>
         </div>
       </div>
+      <div className="grid grid--2-text-reverse grid--center">
+        <article className="code">
+          <div className="code__line">
+            const <span className="code__variable">posterPresentation</span>{" "}
+            {hookL}
+          </div>
+          <div className="code__line code__tab-1">
+            <span className="code__key">Link</span>:{" "}
+            <a
+              className="code__value"
+              href="/media/files/poster-presentation.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://www.kiliandebock.be/media/files/poster-presentation.pdf
+            </a>
+            ,
+          </div>
+          <div className="code__line">{hookR}</div>
+        </article>
+        <div className="code code--fill code--img">
+          <button
+            className="iframe"
+            onMouseLeave={(e) => closeIframe(e)}
+            onClick={(e) => toggleIframe(e)}
+          >
+            <iframe
+              title="arne"
+              src="/media/files/poster-presentation.pdf"
+            ></iframe>
+          </button>
+        </div>
+      </div>
     </section>
   );
 };

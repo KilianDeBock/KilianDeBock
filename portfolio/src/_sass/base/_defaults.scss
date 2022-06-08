@@ -15,6 +15,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   flex-grow: 1;
 }

@@ -1,84 +1,91 @@
-form {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.group {
-  display: flex;
-  gap: .5rem;
-
-  &.spread {
+.pc {
+  form {
+    color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 
-  span {
-    margin-right: .5rem;
+  .group {
+    display: flex;
+    gap: .5rem;
 
-    &:before {
-      content: '= ';
+    &.spread {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
     }
 
-    &:after {
-      content: '%';
+    span {
+      margin-right: .5rem;
+
+      &:before {
+        content: '= ';
+      }
+
+      &:after {
+        content: '%';
+      }
     }
   }
-}
 
-.half-width > * {
-  width: 2.5rem;
-}
+  .half-width > * {
+    width: 2.5rem;
+  }
 
-label,
-.label {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-
-  > * {
+  label,
+  .label {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: .5rem;
-    display: block;
+    align-items: center;
+
+    > * {
+      text-align: center;
+      margin-top: .5rem;
+      display: block;
+    }
   }
-}
-
-input {
-  background-color: #cef3ff;
-  text-align: center;
-  width: 5.5rem;
-  color: black;
-
-  &[value="0"] {
-    background-color: #ffd0ce;
-  }
-}
-
-.un-editable {
-  display: flex;
-  gap: 1rem;
 
   input {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: white;
-  }
-}
+    background-color: #cef3ff;
+    text-align: center;
+    width: 5.5rem;
+    color: black;
 
-input.validField {
-  transition: opacity 0.3s ease-in-out;
-  background-color: #b7ac92;
-  color: black;
-  opacity: .2;
-
-  &.small {
-    width: 3rem;
+    & [value="0"] {
+      background-color: #ffd0ce;
+    }
   }
 
-  &:hover {
-    opacity: 1;
+  .un-editable {
+    display: flex;
+    gap: 1rem;
+
+    input {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: white;
+    }
+  }
+
+  input.validField {
+    transition: opacity 0.3s ease-in-out;
+    background-color: #b7ac92;
+    color: black;
+    opacity: .2;
+
+    &.small {
+      width: 3rem;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  input {
+    height: fit-content;
+    padding: .2rem
   }
 }

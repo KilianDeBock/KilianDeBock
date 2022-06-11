@@ -136,8 +136,8 @@ const PointsCalculatePage = () => {
   };
 
   return (
-    <section>
-      <form action="src/pages/tools/points/pointsCalculate.page#">
+    <section className="pc">
+      <form>
         <h2 className="margin-left-0 margin-bottom-2">Points Input</h2>
         <article className="group">
           <div className="label">

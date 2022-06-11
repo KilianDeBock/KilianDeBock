@@ -30,27 +30,43 @@ const Navigation = () => {
         <div className="main-nav__menu">
           <ul className="main-nav__items">
             <li>
-              <Link className={isActive("/")} to="/">
+              <Link className={isActive("/")} to="/" onClick={closeHamburger}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className={isActive("/about")} to="/about">
+              <Link
+                className={isActive("/about")}
+                to="/about"
+                onClick={closeHamburger}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link className={isActive("/portfolio")} to="/portfolio">
+              <Link
+                className={isActive("/portfolio")}
+                to="/portfolio"
+                onClick={closeHamburger}
+              >
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link className={isActive("/contact")} to="/contact">
+              <Link
+                className={isActive("/contact")}
+                to="/contact"
+                onClick={closeHamburger}
+              >
                 Contact
               </Link>
             </li>
             <li>
-              <Link className={isActive("/contact")} to="/tools">
+              <Link
+                className={isActive("/contact")}
+                to="/tools"
+                onClick={closeHamburger}
+              >
                 Tools
               </Link>
             </li>
@@ -60,6 +76,9 @@ const Navigation = () => {
           onClick={changeHamburger}
           className="main-nav__hamburger"
         ></button>
+      </nav>
+      <nav className="nav__to-top">
+        <a href="#">Back To Top</a>
       </nav>
     </div>
   );

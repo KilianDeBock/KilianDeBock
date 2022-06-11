@@ -76,3 +76,13 @@
     }
   }
 }
+
+.nav__to-top {
+  right: 2rem;
+  color: white;
+  bottom: 2rem;
+  z-index: 100;
+  display: block;
+  position: fixed;
+  mix-blend-mode: difference;
+}

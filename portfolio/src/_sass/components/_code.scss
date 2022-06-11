@@ -75,5 +75,8 @@
 
   .code__value {
     color: $color-blue-300;
+    height: 1rem;
+    display: inline-flex;
+    gap: .5rem;
   }
 }

@@ -14,13 +14,13 @@
 
   &.grid--2-text {
     @media (min-width: $width-desktop-large) {
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1.5fr 2fr;
     }
   }
 
   &.grid--2-text-reverse {
     @media (min-width: $width-desktop-large) {
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1.5fr;
 
       :nth-child(2) {
         order: -1;

@@ -41,37 +41,86 @@ const AboutPage = () => {
             <div className="code__line code__tab-1">
               <span className="code__key">markup</span>: {hookL}
               <div className="code__line code__tab-1">
-                <span className="code__value">"HTML"</span>,
+                <span className="code__value">
+                  <img alt="HTML" src="https://f.lyttle.it/wZs7ssJ5e2.png" />
+                  "HTML"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"CSS"</span>,
+                <span className="code__value">
+                  <img alt="CSS" src="https://f.lyttle.it/HqcyCljrcu.png" />
+                  "CSS"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"JS"</span>,
+                <span className="code__value">
+                  <img
+                    alt="JavaScript"
+                    src="https://f.lyttle.it/DuaNti2sbq.png"
+                  />
+                  "JS"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"JSON"</span>,
+                <span className="code__value">
+                  <img alt="JSON" src="https://f.lyttle.it/6H0dUROCBL.png" />
+                  "JSON"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"PHP"</span>,
+                <span className="code__value">
+                  <img alt="PHP" src="https://f.lyttle.it/FOzpjHvynE.png" />
+                  "PHP"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"TS"</span>,
+                <span className="code__value">
+                  <img
+                    alt="TypeScript"
+                    src="https://f.lyttle.it/sqg2FShDke.png"
+                  />
+                  "TS"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"React"</span>,
+                <span className="code__value">
+                  <img alt="React" src="https://f.lyttle.it/06wUaDBk9K.png" />
+                  "React"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"Svelte"</span>,
+                <span className="code__value">
+                  <img alt="Svelte" src="https://f.lyttle.it/78g7xA2X0n.png" />
+                  "Svelte"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"Python"</span>,
+                <span className="code__value">
+                  <img alt="Python" src="https://f.lyttle.it/AyopWNjiUL.png" />
+                  "Python"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"YAML"</span>,
+                <span className="code__value">
+                  <img alt="YAML" src="https://f.lyttle.it/3FZcg9LkIg.png" />
+                  "YAML"
+                </span>
+                ,
               </div>
               <div className="code__line code__tab-1">
-                <span className="code__value">"SQL"</span>
+                <span className="code__value">
+                  <img alt="SQL" src="https://f.lyttle.it/T3pVq8aOEj.png" />
+                  "SQL"
+                </span>
               </div>
               {hookR}
             </div>

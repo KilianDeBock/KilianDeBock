@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.70defb2e.css",
-    "main.js": "/static/js/main.e3d522b4.js",
+    "main.css": "/static/css/main.34c46b46.css",
+    "main.js": "/static/js/main.ed9115c0.js",
     "static/media/Consolas Bold Italic.woff": "/static/media/Consolas Bold Italic.cea9e610b118edf9687f.woff",
     "static/media/Consolas Italic.woff": "/static/media/Consolas Italic.6f30469e4948af612b95.woff",
     "static/media/Consolas Bold.woff": "/static/media/Consolas Bold.617672e0c9f56c07443a.woff",
@@ -51,11 +51,11 @@
     "static/media/menu.svg": "/static/media/menu.2e308d0b3773e05f4cc2.svg",
     "index.html": "/index.html",
     "static/media/big-blob.svg": "/static/media/big-blob.9630f16f14ba25b7fdf6.svg",
-    "main.70defb2e.css.map": "/static/css/main.70defb2e.css.map",
-    "main.e3d522b4.js.map": "/static/js/main.e3d522b4.js.map"
+    "main.34c46b46.css.map": "/static/css/main.34c46b46.css.map",
+    "main.ed9115c0.js.map": "/static/js/main.ed9115c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.70defb2e.css",
-    "static/js/main.e3d522b4.js"
+    "static/css/main.34c46b46.css",
+    "static/js/main.ed9115c0.js"
   ]
 }

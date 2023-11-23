@@ -7,7 +7,7 @@ This is my school account, my main account can be found here: <a target="_blank"
 
 I currently study web development at Artevelde University of Applied Sciences in Belgium.
 <br> 
-<br> 
+<br>
 
 ## Editors:
 <a target="_blank" href="https://www.jetbrains.com/webstorm/"><img align="left" alt="Webstorm" height="33px" src="https://mirror.lyttle.it/icons/webstorm.svg"></a>
@@ -34,14 +34,12 @@ I currently study web development at Artevelde University of Applied Sciences in
 <a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/nodejs.svg"></a>
 <a target="_blank" href="https://www.php.net/"><img align="left" alt="PHP" height="33px" src="https://mirror.lyttle.it/icons/php.svg"></a>
 <a target="_blank" href="https://www.python.org/"><img align="left" alt="Python" height="33px" src="https://mirror.lyttle.it/icons/python.svg"></a>
+<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/csharp.svg"></a>
+<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/java.svg"></a>
 
 [//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/c.svg"></a>)
 
 [//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/c-plusplus.svg"></a>)
-
-[//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/csharp.svg"></a>)
-
-[//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/java.svg"></a>)
 
 
 <br>
@@ -71,10 +69,8 @@ I currently study web development at Artevelde University of Applied Sciences in
 <a target="_blank" href="https://reactjs.org/"><img align="left" alt="CraftCms" height="33px" src="https://mirror.lyttle.it/icons/craftcms.svg"></a>
 <a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/handlebars.svg"></a>
 <a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/discord.svg"></a>
-
-[//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/dotnet.svg"></a>)
-
-[//]: # (<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/angular.svg"></a>)
+<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/dotnet.svg"></a>
+<a target="_blank" href=""><img align="left" alt="" height="33px" src="https://mirror.lyttle.it/icons/angular.svg"></a>
 
 <br>
 <br>

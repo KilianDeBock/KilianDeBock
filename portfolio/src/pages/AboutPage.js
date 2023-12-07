@@ -42,14 +42,14 @@ const AboutPage = () => {
               <span className="code__key">markup</span>: {hookL}
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="HTML" src="https://f.lyttle.it/wZs7ssJ5e2.png" />
+                  <img alt="HTML" src="https://mirror.lyttle.it/icons/html-5.svg" />
                   "HTML"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="CSS" src="https://f.lyttle.it/HqcyCljrcu.png" />
+                  <img alt="CSS" src="https://mirror.lyttle.it/icons/css.svg" />
                   "CSS"
                 </span>
                 ,
@@ -58,22 +58,22 @@ const AboutPage = () => {
                 <span className="code__value">
                   <img
                     alt="JavaScript"
-                    src="https://f.lyttle.it/DuaNti2sbq.png"
+                    src="https://mirror.lyttle.it/icons/javascript.svg"
                   />
-                  "JS"
+                  "JavaScript"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="JSON" src="https://f.lyttle.it/6H0dUROCBL.png" />
+                  <img alt="JSON" src="https://mirror.lyttle.it/icons/json.svg" />
                   "JSON"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="PHP" src="https://f.lyttle.it/FOzpjHvynE.png" />
+                  <img alt="PHP" src="https://mirror.lyttle.it/icons/php.svg" />
                   "PHP"
                 </span>
                 ,
@@ -82,43 +82,53 @@ const AboutPage = () => {
                 <span className="code__value">
                   <img
                     alt="TypeScript"
-                    src="https://f.lyttle.it/sqg2FShDke.png"
+                    src="https://mirror.lyttle.it/icons/typescript.svg"
                   />
-                  "TS"
+                  "TypeScript"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="React" src="https://f.lyttle.it/06wUaDBk9K.png" />
+                  <img
+                    alt="Java"
+                    src="https://mirror.lyttle.it/icons/java.svg"
+                  />
+                  "Java"
+                </span>
+                ,
+              </div>
+              <div className="code__line code__tab-1">
+                <span className="code__value">
+                  <img alt="React" src="https://mirror.lyttle.it/icons/react.svg" />
                   "React"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="Svelte" src="https://f.lyttle.it/78g7xA2X0n.png" />
+                  <img alt="Svelte" src="https://mirror.lyttle.it/icons/svelte.svg" />
                   "Svelte"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="Python" src="https://f.lyttle.it/AyopWNjiUL.png" />
+                  <img alt="Python" src="https://mirror.lyttle.it/icons/python.svg" />
                   "Python"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="YAML" src="https://f.lyttle.it/3FZcg9LkIg.png" />
+                  <img alt="YAML" src="https://mirror.lyttle.it/icons/yaml.svg" />
                   "YAML"
                 </span>
                 ,
               </div>
               <div className="code__line code__tab-1">
                 <span className="code__value">
-                  <img alt="SQL" src="https://f.lyttle.it/T3pVq8aOEj.png" />
+                  <img alt="SQL" src="https://mirror.lyttle.it/icons/sql.svg" />
                   "SQL"
                 </span>
               </div>

@@ -1,11 +1,11 @@
 # Heye, hello there! 👋
 
 <a target="_blank" href="https://wakatime.com/Stualyttle"><img align="right" width="48%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/wakatime?username=Stualyttle&layout=compact&bg_color=1d1f21&text_color=c9cacc" alt="Wakatime Stats"></a>
-### I'm Stualyttle, a junior developer starting to code!
-I mainly code in Javascript, some of my projects are **Discord** bots and **website** building.
-This is my school account, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
+### I'm Stualyttle, a full-stack developer!
+I code in multiple languages, like TypeScript, Python, .NET & Java, some of my projects are **Discord** bots, **website** building, **minecraft plugins**, **professional applications** & **API's** and the list goes on...
 
-I currently study web development at Artevelde University of Applied Sciences in Belgium.
+This is my private account, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
+I work IT specialist under the department HR in ArcelorMittal Belgium, and volunteer as developer in multiple open source projects!
 <br> 
 <br>
 

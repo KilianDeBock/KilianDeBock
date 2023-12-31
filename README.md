@@ -5,6 +5,7 @@
 I code in multiple languages, like TypeScript, Python, .NET & Java, some of my projects are **Discord** bots, **website** building, **minecraft plugins**, **professional applications** & **API's** and the list goes on...
 
 This is my private account, my main account can be found here: <a target="_blank" href="https://github.com/Stualyttle">https://github.com/Stualyttle</a>
+
 I work IT specialist under the department HR in ArcelorMittal Belgium, and volunteer as developer in multiple open source projects!
 <br> 
 <br>

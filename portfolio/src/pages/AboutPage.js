@@ -27,8 +27,8 @@ const AboutPage = () => {
               <span className="code__value">"Fullstack Developer"</span>,
             </div>
             <div className="code__line code__tab-1">
-              <span className="code__key">education</span>:{" "}
-              <span className="code__value">"Artevelde University"</span>,
+              <span className="code__key">employer</span>:{" "}
+              <span className="code__value">"ArcelorMittal Belgium"</span>,
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">memory</span>:{" "}

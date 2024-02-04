@@ -30,7 +30,7 @@ const HomePage = () => {
           <h2>Hello there!</h2>
           <article className="code">
             <div className="code__line">
-              const <span className="code__variable">Person</span> {hookL}
+              const <span className="code__variable">Person</span> = {hookL}
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">firstname</span>:{" "}
@@ -44,7 +44,7 @@ const HomePage = () => {
           </article>
           <article className="code margin-left-5">
             <div className="code__line">
-              const <span className="code__variable">MetaData</span> {hookL}
+              const <span className="code__variable">MetaData</span> = {hookL}
             </div>
             <div className="code__line code__tab-1">
               <span className="code__key">profession</span>:{" "}

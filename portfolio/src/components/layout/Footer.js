@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid">
         <article className="code code--fill">
           <div className="code__line">
-            const <span className="code__variable">Socials</span> {hookL}
+            const <span className="code__variable">Socials</span> = {hookL}
           </div>
           <div className="code__line code__tab-1">
             <span className="code__key">discord</span>:{" "}

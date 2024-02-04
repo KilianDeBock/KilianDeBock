@@ -10,7 +10,7 @@ const ToolsPage = () => {
     <section className="grid">
       <article className="code code--fill">
         <div className="code__line">
-          const <span className="code__variable">Tools</span> {hookL}
+          const <span className="code__variable">Tools</span> = {hookL}
         </div>
         <div className="code__line code__tab-1">
           <span className="code__key">points</span>:{" "}

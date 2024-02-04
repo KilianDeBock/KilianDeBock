@@ -45,15 +45,6 @@ const Navigation = () => {
             </li>
             <li>
               <Link
-                className={isActive("/portfolio")}
-                to="/portfolio"
-                onClick={closeHamburger}
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
                 className={isActive("/contact")}
                 to="/contact"
                 onClick={closeHamburger}
